@@ -1,7 +1,7 @@
 /*Backround divs*/
 
 body {
-    background-image: url(/static/img/computer-background.jpg);
+    background-image: url(/static/img/bokeh.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,17 +54,17 @@ body {
 
 .thin-font {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .midbold-font {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .bold-font {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;   
+    font-weight: 700;   
 }
 
 .italic {
@@ -81,7 +81,7 @@ body {
 
 .inverse-text {
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .header {
@@ -127,8 +127,89 @@ h4 {
     color: white;
 }
 
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .connect {
     text-align: center;
+}
+
+.header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.previous {
+    text-align: center;
+}
+
+.project-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(236, 240, 241, 0.7);
+    padding-right: 25px;
+    padding-left: 25px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 25px;
+
+}
+
+
+.project-image {
+    max-height: 200px;
+}
+
+.text-div {
+    background-color: rgba(189, 195, 199, 0.5);
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.code-skill {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: black;
+    line-height: 290px;
+    text-align: center;
+    display: inline-block;
+    border: 6px solid white;
+    background-color: rgba(236, 240, 241, 0.7);
+}
+
+.circle-group {
+    padding-top: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.skill-text {
+    padding-top: 60px;
 }
 
 /*Images*/
@@ -143,4 +224,14 @@ h4 {
 
 #github-icon {
     height: 80px;
+}
+
+.main-icon {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#devices {
+    height: 150px;
 }
