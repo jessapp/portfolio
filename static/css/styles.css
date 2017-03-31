@@ -197,6 +197,9 @@ h4 {
     display: inline-block;
     border: 6px solid white;
     background-color: rgba(236, 240, 241, 0.7);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
 
 .circle-group {
@@ -210,6 +213,8 @@ h4 {
 
 .skill-text {
     padding-top: 60px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /*Images*/
