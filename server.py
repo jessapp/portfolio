@@ -5,7 +5,7 @@ import os
 from jinja2 import StrictUndefined
 
 from flask import (Flask, jsonify, render_template, redirect, request, flash,
-                   session)
+                   session, send_from_directory)
 from flask_debugtoolbar import DebugToolbarExtension
 
 
