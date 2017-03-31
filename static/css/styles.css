@@ -1,0 +1,73 @@
+/*Backround divs*/
+
+body {
+    background-image: url(/static/img/computer-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.white-bg {
+    background-color: white;
+}
+
+/*Navbar*/
+.nav {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
+    transition: all 0.25s linear;
+}
+
+.inverse-nav {
+    background-color: rgba( 0, 0, 0, .5 );
+    border-bottom: 1px solid white;
+}
+
+#navbar.inverse-nav a {
+    color: white;
+}
+
+#navbar.inverse-nav a:hover {
+    color: black;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 200px;
+}
+
+.nav a {
+    color: black;
+    transition: all 0.25s linear;
+}
+
+/*Text*/
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
