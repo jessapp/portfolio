@@ -18,8 +18,6 @@
 </head>
 
 <body>
-<div class="fixed-bg"></div><!-- Fixed background div -->
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top nav">
       <div class="container">
@@ -68,12 +66,58 @@
       </div>
     </nav>
 
+<div class="content container-fluid">
 
-  <div id="about-me">
-    <h1>This is an about section</h1>
+  <div class="home section" id="home">
+    <div class="container">
+      <h1>Home!</h1>
+    </div>
   </div>
-  <div id="projects" class="white-bg">
-    <h1>This is a projects section</h1>
-</div> <!-- end of fixed background div -->
+
+  <div class="about-me section white-bg" id="about-me">
+    <div class="container">
+      <h1>This is an about section</h1>
+    </div>
+  </div>
+
+  <div class="projects section" id="projects">
+    <div class="container">
+      <h1>This is a projects section</h1>
+    </div>
+  </div>
+
+  <div class="previous section white-bg" id="previous">
+    <div class="container">
+      <h1>This is a previous work section</h1>
+    </div>
+  </div>
+
+  <div class="connect section" id="connect">
+    <div class="container">
+      <h3 class="inverse-text">Have a project I might be interested in?</h3>
+      <hr>
+      <p class="inverse-text">Shoot me an email at <a href="mailto:jess.appelbaum@gmail.com" id="email-link">jess.appelbaum@gmail.com</a>!</p>
+      <div>
+        <div class="contact-div">
+          <a href="mailto:jess.appelbaum@gmail.com">
+            <img src="/static/img/email-icon.png" id="email-icon" class="icon email-padding">
+          </a>
+        </div>
+        <div class="contact-div">
+          <a href="http://www.linkedin.com/in/jessapp/">
+            <img src="/static/img/linkedin-icon.png" id="linkedin-icon" class="icon linkedin-padding">
+          </a>
+        </div>
+        <div class="contact-div">
+          <a href="https://github.com/jessapp/">
+            <img src="/static/img/github-icon.png" id="github-icon" class="icon extra-padding">
+          </a>
+        </div>
+        </div>
+    </div>
+  </div>
+
+
+</div> <!-- end of content -->
 
 </body>

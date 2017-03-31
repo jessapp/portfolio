@@ -52,8 +52,47 @@ body {
 
 /*Text*/
 
+.thin-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.midbold-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.bold-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;   
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.remove-top-padding {
+    padding-top: none;
+}
+
+.inverse-text {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
 }
 
 h1 {
@@ -70,4 +109,38 @@ h3 {
 
 h4 {
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Formatting*/
+
+.content {
+    margin-top: 40px;
+}
+
+.contact-div {
+    display: inline-block;
+    align: center;
+}
+
+#email-link {
+    color: white;
+}
+
+.connect {
+    text-align: center;
+}
+
+/*Images*/
+
+#email-icon {
+    height: 75px;
+}
+
+#linkedin-icon {
+    height: 100px;
+}
+
+#github-icon {
+    height: 80px;
 }
